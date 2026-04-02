@@ -11,7 +11,7 @@ Tversky loss was used as a loss function and Adam was used as a optimizer with a
 # Results
 The segmentation model was trained for 100 epochs with a batch size of 10, and best model was chosen based on the lowest validation loss. [This directory](https://github.com/eetuhoo/magnetic-tile-defect-segmentation/tree/main/learning_timeline) contains images that were saved every 5 epochs during training. From those it can be seen how the model learns to segment a relatively difficult crack defect. The evaluation metrics that were used in testing were dice score and intersection over union (IoU). The testing results are in the image below. The image shows best, typical, and worst predictions according to dice score going from top to bottom row. <br />
 <br />
-![alt text](https://github.com/eetuhoo/magnetic-tile-defect-segmentation/tree/main/figures/testing_results.png "Testing results") <br />
+<img width="1200" height="800" alt="Image" src="https://github.com/user-attachments/assets/01cd5bf1-f788-4a6b-8e95-1a7984bd4def" />
 <br />
 The mean dice and IoU scores for all predictions in testing were 0.6908 and 0.5648, respectively.
 
